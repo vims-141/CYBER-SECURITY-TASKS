@@ -1,0 +1,11 @@
+# Nmap 7.97 scan initiated Mon Aug  4 19:01:33 2025 as: nmap -sS -oN vims_result.txt 192.168.0.109
+Nmap scan report for 192.168.0.109 (192.168.0.109)
+Host is up (0.000042s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+# Nmap done at Mon Aug  4 19:01:35 2025 -- 1 IP address (1 host up) scanned in 1.75 seconds
