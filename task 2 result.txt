@@ -1,0 +1,40 @@
+Subject: LastPass Security Notice
+
+From: LastPass LastPass@secure-monitor.com
+To: [Your email address]
+
+Dear LastPass User,
+
+We wanted to alert you that, recently, our team discovered and immediately blocked suspicious activity on our network. Some user vault data was taken including email addresses and passwords.
+
+To be sure that your information was NOT compromised, we have built this secure web site where you can enter your LastPass login information and we can tell you if your account was one that was compromised.
+
+We apologize for the inconvenience, but ultimately we believe this will better protect LastPass users. Thank you for your understanding, and for using LastPass.
+
+Regards,
+The LastPass Team
+
+
+
+
+#########################
+1.Sender and domain address
+  Last pass(password manager website) official website uses official domain. But in this we will notice that "@secure-monitor.com". Most of the phising website uses @secure-offical or  
+  public domains(@gmail).
+
+2.Verify the email header:
+  HEADER is basically a phase above the content of the mail. Using an email header analyzer tool, you could analyze the full email header for SPF, DKIM, and DMARC authentication failures,       
+  mismatched “From” and “Reply-To” addresses, and unusual   originating IP addresses foreign to LastPass infrastructure. Such technical discrepancies confirm spoofing. 
+
+3.Triggering emotions:
+  Most of the phising mail targets the victims in terms of emotions(fear and greedy), so they achieve this with highlighted icon, link and attractive buttons.
+
+4.Suspicious links and attachment:
+  Although not clickable here, the "Learn More" link likely leads to a fake or malicious website. Also, attachments like “AccountRecoveryInstructions.pdf” are common malware delivery 
+  vectors. You should never open attachments or click links in unexpected emails without verifying legitimacy.
+
+5.Look for generic greetings and poor branding:
+  The email uses a generic greeting (“Dear LastPass User”) rather than your real name. Official communications often include personalized details. Small grammar or stylistic 
+  inconsistencies also hint this was not professionally sent.
+###########################
+
