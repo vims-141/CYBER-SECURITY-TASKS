@@ -1,0 +1,25 @@
+MY IP ADDRESS:192.1@#.0.111 
+
+###################
+SUMMARIZE FOR TASK 5:
+
+1.DNS FORMAT:
+  In my first pcap file, I was requesting the browser to open the youtube. From my device to      
+  server. We can see that port address "53"(DNS).
+  MY device ip address:192.1@#.0.111  subnet mask:255.255.255.0
+  destination adresss :192.1@#.0.1   -router address (GATEWAY ADDRESS)
+
+2.ARP:
+  ARP is a network protocol used to map or translate an IP address (logical address) into a 
+  MAC address (physical hardware address) within a local area network (LAN).
+  In my second pcap file you see that device is asking the mac address of my router   
+  in our local network like who is 192.&*&.0.111(gateway) in broadcast manner, the router  
+  replying in unicast. And again router asking who is this in our network. 
+
+3.TCP:
+  Secured and reliable format is using for dns request of Xbox games in a way for    
+  gamepass.com. From my device to xbox gamepass website(104.95.97.75) in 3-way handshake  
+  manner like "CLIENT HELLO" and the server replying in same manner "SERVER HELLO".
+
+#####################
+      THANK YOU
