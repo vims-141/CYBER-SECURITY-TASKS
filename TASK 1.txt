@@ -9,3 +9,4 @@ PORT     STATE SERVICE
 3306/tcp open  mysql
 
 # Nmap done at Mon Aug  4 19:01:35 2025 -- 1 IP address (1 host up) scanned in 1.75 seconds
+
